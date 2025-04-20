@@ -34,7 +34,7 @@ function Navbar() {
                     </ul>
                     <ul className="resume">
                         <li>
-                            <a href="/resume.pdf" download>RESUME</a>
+                            <a href="/Yash Goel - Resume.pdf" target="_blank" rel="noopener noreferrer">RESUME</a>
                         </li>
                     </ul>
                 </div>
