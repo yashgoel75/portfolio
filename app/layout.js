@@ -1,5 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { ReactNode } from 'react';
+import Head from 'next/head';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,12 +15,18 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Yash Goel",
+  icons: {
+    icon: '/favicon.ico', // Make sure this path is correct
+  },
   description: "",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="icon" href="./favicon.ico" />
+      </Head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
