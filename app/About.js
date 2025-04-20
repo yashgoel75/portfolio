@@ -9,7 +9,6 @@ import tailwind from "./tailwind.png";
 import bootstrap from "./bootstrap.png";
 
 function About() {
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>;
   return (
     <>
       <div className="main-heading">ABOUT ME</div>
