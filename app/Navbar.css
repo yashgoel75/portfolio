@@ -106,11 +106,11 @@
 
 @media (min-width: 768px) {
   .Nav-container {
-      height: 80px;
+      height: 95px;
   }
 
   .Navbar {
-      margin-top: 15px;
+      margin-top: 40px;
       height: 45px;
       flex-direction: row;
       justify-content: center;
