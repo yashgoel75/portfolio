@@ -1,0 +1,118 @@
+.About-container {
+  width: 90%; 
+  margin: 0 auto 30px auto; 
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 10px; 
+  box-sizing: border-box; 
+}
+
+.main-heading {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px; 
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.About-container .About-heading {
+  padding: 5px 10px;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.About-container .About-content {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  padding: 0 5px; 
+}
+
+.About-container ul {
+  margin: 8px 0;
+  padding-left: 15px;
+}
+
+.About-container li {
+  list-style: none;
+  font-size: 16px; 
+}
+
+.skills-heading {
+  width: 90%; 
+  margin: 0 auto;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px; 
+  text-align: center; 
+}
+
+.skillset-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skillset {
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .About-container {
+      width: 80%;
+      margin-bottom: 50px;
+      padding: 5px;
+  }
+
+  .main-heading {
+    width: 80%;
+    margin: auto;
+      font-size: 30px;
+      margin-bottom: 20px;
+  }
+
+  .About-container .About-heading {
+      text-align: left; 
+  }
+
+  .About-container .About-content {
+      font-size: 18px;
+      padding: 0;
+  }
+
+  .About-container ul {
+      padding-left: 0; 
+  }
+
+  .About-container li {
+      font-size: 18px; 
+  }
+
+  .skills-heading {
+      width: 80%;
+      font-size: 20px;
+      text-align: left;
+  }
+
+  .skillset-container {
+      width: 80%;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+  }
+
+  .skillset {
+      margin: 20px 10px;
+      width: 70px; 
+      height: 70px;
+  }
+}

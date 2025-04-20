@@ -1,0 +1,32 @@
+.main-container {
+    display: flex;
+    flex-direction: column; /* Stack content vertically on mobile */
+    margin-top: 30px; /* Reduced margin for compact mobile layout */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 10px; /* Added padding for touch-friendly spacing */
+}
+
+.main-container:hover {
+    transition: .5s ease;
+}
+
+.main-container .main-content {
+    font-size: 32px; /* Reduced font size for mobile */
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+    .main-container {
+        flex-direction: row; /* Restore horizontal layout for desktop */
+        margin-top: 50px; /* Restore original margin */
+        padding: 0; /* Remove mobile padding */
+    }
+
+    .main-container .main-content {
+        font-size: 50px; /* Restore original font size */
+    }
+}
