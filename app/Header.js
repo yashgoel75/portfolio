@@ -17,12 +17,12 @@ function Header() {
             &nbsp;&nbsp;&lt;style&gt;<br></br>
             &nbsp;&nbsp;&nbsp;.content &#123;<br></br>
             &nbsp;&nbsp;&nbsp;&nbsp; font-size: 50px; text-align: center;
-            font-family: 'Courier New', Courier, monospace;<br></br>
+            font-family: &apos;Courier New&apos;, Courier, monospace;<br></br>
             &nbsp;&nbsp;&nbsp;&#125;<br></br>
             &nbsp;&nbsp;&lt;/style&gt;<br></br>
             &nbsp;&lt;/head&gt;<br></br>
             &nbsp;&lt;body&gt;<br></br>
-            &nbsp;&nbsp;&lt;div class="content"&gt;<br></br>
+            &nbsp;&nbsp;&lt;div class=&ldquo;content&ldquo;&gt;<br></br>
             &nbsp;&nbsp;&nbsp;Hello, I am Yash Goel!<br></br>
             &nbsp;&nbsp;&lt;/div&gt;<br></br>
             &nbsp;&lt;/body&gt;<br></br>

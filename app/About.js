@@ -18,7 +18,7 @@ function About() {
         <div className="About-content">
           <ul>
             <li>
-              - Second-year B.Tech student majoring in{" "}
+              - Second-year B.Tech student majoring in
               <strong>Artificial Intelligence and Machine Learning</strong>
             </li>
             <li>
