@@ -17,8 +17,8 @@ function About() {
         <div className="About-content">
           <ul>
             <li>
-              - Second-year B.Tech student majoring in
-              <strong>Artificial Intelligence and Machine Learning</strong>
+              - Second-year B.Tech student majoring in 
+              <strong> Artificial Intelligence and Machine Learning</strong>
             </li>
             <li>
               - Based in <strong>Delhi, India</strong>
