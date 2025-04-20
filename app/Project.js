@@ -42,7 +42,7 @@ function Project() {
           <div className="project-content">
             <div className="project-name">IPU CGPA Calculator</div>
             <div className="project-tech">
-              <strong>Tech Stack:</strong> HTML, CSS, JavaScript
+            🛠️ <strong>Tech Stack:</strong> HTML, CSS, JavaScript
             </div>
             <div className="project-desc">
               A user-friendly web application designed specifically for students
