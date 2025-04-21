@@ -66,7 +66,7 @@ function Main() {
                 &nbsp;&nbsp;&lt;/style&gt;<br />
                 &nbsp;&lt;/head&gt;<br />
                 &nbsp;&lt;body&gt;<br />
-                &nbsp;&nbsp;&lt;div class="content"&gt;<br />
+                &nbsp;&nbsp;&lt;div class=&quot;content&quot;&gt;<br />
                 &nbsp;&nbsp;&nbsp;Hello, I am Yash Goel!<br />
                 &nbsp;&nbsp;&lt;/div&gt;<br />
                 &nbsp;&lt;/body&gt;<br />
