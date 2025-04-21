@@ -46,8 +46,8 @@ function Main() {
                 &nbsp;&nbsp;&lt;/style&gt;<br />
                 &nbsp;&lt;/head&gt;<br />
                 &nbsp;&lt;body&gt;<br />
-                &nbsp;&nbsp;&lt;div class="content"&gt;<br />
-                &nbsp;&nbsp;&nbsp;Hello, I am &lt;span class="name"&gt;Yash
+                &nbsp;&nbsp;&lt;div class=&quot;content&quot;&gt;<br />
+                &nbsp;&nbsp;&nbsp;Hello, I am &lt;span class=&quot;name&quot;&gt;Yash
                 Goel!&lt;/span&gt;<br />
                 &nbsp;&nbsp;&lt;/div&gt;<br />
                 &nbsp;&lt;/body&gt;<br />
@@ -77,7 +77,7 @@ function Main() {
         </div>
         <div className="main-container">
           <div className="main-content">
-            &gt;&gt;&gt; Hello, I am{" "}
+            &gt;&gt;&gt; Hello, I am&nbsp;
             <span
               className="name"
               onMouseEnter={() => isDesktop && setIsHovered(true)}
