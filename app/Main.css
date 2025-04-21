@@ -29,14 +29,15 @@ html {
   
   .header-container .header-buttons {
     display: flex;
+    padding: 0px;
   }
-  
+
   .header-container .header-red {
     height: 10px; /* Slightly smaller for mobile */
     width: 10px;
     background-color: #ff605c;
-    margin-left: 18px; /* Slightly reduced from 20px to fit mobile, keeping left alignment */
-    margin-top: 18px; /* Slightly reduced from 20px for compactness */
+    margin-left: 12px; /* Slightly reduced from 20px to fit mobile, keeping left alignment */
+    margin-top: 10px; /* Slightly reduced from 20px for compactness */
     border-radius: 100%;
   }
   
@@ -45,7 +46,7 @@ html {
     width: 10px;
     background-color: #ffbd44;
     margin-left: 8px; /* Slightly reduced from 9px for mobile */
-    margin-top: 18px;
+    margin-top: 10px;
     border-radius: 100%;
   }
   
@@ -54,7 +55,7 @@ html {
     width: 10px;
     background-color: #00ca4e;
     margin-left: 8px;
-    margin-top: 18px;
+    margin-top: 10px;
     border-radius: 100%;
   }
   
@@ -67,6 +68,9 @@ html {
     margin-top: 8px; /* Slightly reduced margin */
     line-height: 1.3em; /* Adjusted line height for mobile readability */
     font-size: 16px; /* Added font size for mobile */
+  }
+  .Header-content {
+    margin: 20px;
   }
 .main-container .main-content {
     font-size: 32px; /* Reduced font size for mobile */
