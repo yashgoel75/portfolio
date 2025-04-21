@@ -41,7 +41,7 @@ function Main() {
                 &nbsp;&nbsp;&nbsp;&#125;<br />
                 &nbsp;&nbsp;&nbsp;.name:hover &#123;<br />
                 &nbsp;&nbsp;&nbsp;&nbsp; background-color: white;
-                color: black;<br />
+                color: black; cursor: pointer;<br />
                 &nbsp;&nbsp;&nbsp;&#125;<br />
                 &nbsp;&nbsp;&lt;/style&gt;<br />
                 &nbsp;&lt;/head&gt;<br />
