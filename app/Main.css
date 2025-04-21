@@ -1,3 +1,7 @@
+html {
+    transition: 0.5s ease;
+}
+
 .main-container {
     display: flex;
     flex-direction: column; /* Stack content vertically on mobile */
@@ -7,11 +11,63 @@
     justify-content: center;
     padding: 10px; /* Added padding for touch-friendly spacing */
 }
-
-.main-container:hover {
-    transition: .5s ease;
+.Header-content {
+    transition: 0.5s ease;
 }
-
+.Header-content:hover {
+    transition: 0.5s ease;
+}
+.header-container {
+    width: 90%; /* Increased width for mobile */
+    height: auto; /* Allow height to adjust based on content */
+    border: 1px solid white;
+    margin: 15px auto; /* Reduced margin for compact layout */
+    border-radius: 12px; /* Slightly smaller radius for mobile */
+    padding: 10px; /* Added padding for touch targets */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+  }
+  
+  .header-container .header-buttons {
+    display: flex;
+  }
+  
+  .header-container .header-red {
+    height: 10px; /* Slightly smaller for mobile */
+    width: 10px;
+    background-color: #ff605c;
+    margin-left: 18px; /* Slightly reduced from 20px to fit mobile, keeping left alignment */
+    margin-top: 18px; /* Slightly reduced from 20px for compactness */
+    border-radius: 100%;
+  }
+  
+  .header-container .header-yellow {
+    height: 10px;
+    width: 10px;
+    background-color: #ffbd44;
+    margin-left: 8px; /* Slightly reduced from 9px for mobile */
+    margin-top: 18px;
+    border-radius: 100%;
+  }
+  
+  .header-container .header-green {
+    height: 10px;
+    width: 10px;
+    background-color: #00ca4e;
+    margin-left: 8px;
+    margin-top: 18px;
+    border-radius: 100%;
+  }
+  
+  .header-container .header-content {
+    margin: 15px; /* Reduced margin for mobile */
+    height: auto; /* Allow height to adjust based on content */
+  }
+  
+  .header-container p {
+    margin-top: 8px; /* Slightly reduced margin */
+    line-height: 1.3em; /* Adjusted line height for mobile readability */
+    font-size: 16px; /* Added font size for mobile */
+  }
 .main-container .main-content {
     font-size: 32px; /* Reduced font size for mobile */
     text-align: center;
@@ -25,8 +81,61 @@
         margin-top: 50px; /* Restore original margin */
         padding: 0; /* Remove mobile padding */
     }
+    .name {
+        transition: 0.3s ease;
 
+    }
+    .name:hover {
+        color: black;
+        background-color: white;
+        cursor: pointer;
+    }
     .main-container .main-content {
         font-size: 50px; /* Restore original font size */
     }
+
+    .header-container {
+        width: 70%;
+        height: 410px; /* Restore original height */
+        margin: 25px auto;
+        border-radius: 20px;
+        padding: 0; /* Remove mobile padding */
+      }
+    
+      .header-container .header-red {
+        height: 12px;
+        width: 12px;
+        margin-left: 20px; /* Original margin */
+        margin-top: 20px;
+      }
+    
+      .header-container .header-yellow {
+        height: 12px;
+        width: 12px;
+        margin-left: 9px; /* Original margin */
+        margin-top: 20px;
+      }
+    
+      .header-container .header-green {
+        height: 12px;
+        width: 12px;
+        margin-left: 9px; /* Original margin */
+        margin-top: 20px;
+      }
+    
+      .header-container .Header-content {
+        margin: 40px 20px;
+        height: 440px; /* Restore original height */
+      }
+      .Header-content.hovered {
+        margin: 27px 20px;
+        transition: 0.5s ease;
+        height: 440px; /* Restore original height */
+      }
+    
+      .header-container p {
+        margin-top: 10px;
+        line-height: 1.4em;
+        font-size: 18px; /* Restore typical desktop font size */
+      }
 }
