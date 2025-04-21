@@ -2,5 +2,14 @@
     height: 68vh;
 }
 .Hero .container {
-    margin-top: 210px;
+    margin-top: 180px;
+}
+
+@media (min-width: 768px) {
+    .Hero {
+        height: 68vh;
+    }
+    .Hero .container {
+        margin-top: 210px;
+    }
 }
