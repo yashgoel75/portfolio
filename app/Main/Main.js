@@ -1,5 +1,5 @@
 "use client";
-
+import GitHubCalendar from "react-github-calendar";
 import "./Main.css";
 import { useState, useEffect } from "react";
 
@@ -88,6 +88,8 @@ function Main() {
             !
           </div>
         </div>
+        {/* <GitHubCalendar username="yashgoel75" /> */}
+
       </div>
     </>
   );

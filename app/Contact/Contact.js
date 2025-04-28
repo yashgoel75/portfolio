@@ -11,15 +11,15 @@ function Contact() {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_odesacd", "template_po1r0mh", form.current, {
-        publicKey: "JqrTqeIn4fFoo6PAX",
+      .sendForm(process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID, form.current, {
+        publicKey: process.env.NEXT_PUBLIC_PUBLIC_KEY,
       })
       .then(
         () => {
           alert("SUCCESS!");
         },
         (error) => {
-          alert("FAILED...", error.text);
+          alert("FAILED...", error.text); 
         }
       );
   };

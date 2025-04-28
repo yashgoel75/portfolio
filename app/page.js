@@ -1,9 +1,9 @@
-import Navbar from "./Navbar";
-import Hero from "./Hero";
-import About from "./About";
-import Project from "./Project";
-import Contact from "./Contact";
-import Footer from "./Footer";
+import Navbar from "./Navbar/Navbar";
+import Hero from "./Hero/Hero";
+import About from "./About/About";
+import Project from "./Project/Project";
+import Contact from "./Contact/Contact";
+import Footer from "./Footer/Footer";
 
 export default function Home() {
   return (
@@ -12,12 +12,12 @@ export default function Home() {
       <Navbar></Navbar>
       <Hero></Hero>
       <section id="about"></section>
-        <About></About>
+      <About></About>
       <section id="project"></section>
-        <Project></Project>
+      <Project></Project>
       <section id="contact"></section>
-        <Contact></Contact>
-        <Footer></Footer>
+      <Contact></Contact>
+      <Footer></Footer>
     </>
   );
 }

@@ -1,12 +1,12 @@
 import "./About.css";
 import Image from "next/image";
 
-import react from "./react.png";
-import next from "./next.png";
-import solidity from "./solidity.png";
-import js from "./javascript.png";
-import tailwind from "./tailwind.png";
-import bootstrap from "./bootstrap.png";
+import react from "../assets/react.png";
+import next from "../assets/next.png";
+import solidity from "../assets/solidity.png";
+import js from "../assets/javascript.png";
+import tailwind from "../assets/tailwind.png";
+import bootstrap from "../assets/bootstrap.png";
 
 function About() {
   return (

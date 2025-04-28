@@ -1,6 +1,6 @@
 import "./Project.css";
 import Image from "next/image";
-import ipucgpacalc from "./ipucgpacalculator.png";
+import ipucgpacalc from "../assets/ipucgpacalculator.png";
 
 function Project() {
   return (
