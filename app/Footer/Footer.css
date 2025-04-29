@@ -12,6 +12,8 @@
 .Footer-container .Footer-content {
     font-family: "Courier New", Courier, monospace;
     color: black;
+    align-items: center;
+    display: flex;
 }
 .Footer-container .Footer-social Image{
     padding: 7px;
