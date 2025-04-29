@@ -9,7 +9,7 @@ function Footer() {
         <>
             <div className="Footer-container">
                 <div className="Footer-content"><Image src={logo} width={70} height={70}></Image>
-                    © {new Date().getFullYear()} Yash Goel - yashgoel75</div>
+                    <div className="vertical-line"></div>© {new Date().getFullYear()} Yash Goel - yashgoel75</div>
                 <div className="Footer-social">
                     <a href="https://www.linkedin.com/in/yashgoel75/" target="_blank"><Image src={linkedin} width={30} height={30} alt="LinkedIn"></Image></a>
                     &nbsp;&nbsp;&nbsp;&nbsp;

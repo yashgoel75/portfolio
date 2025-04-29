@@ -11,10 +11,17 @@
 }
 .Footer-container .Footer-content {
     font-family: "Courier New", Courier, monospace;
-    color: black;
     align-items: center;
+    color: black;
     display: flex;
 }
+
+.Footer-container .vertical-line {
+    height: 40px;
+    margin: 0px 20px 0px 10px;
+    border: 1px solid rgb(67, 67, 67);
+}
+
 .Footer-container .Footer-social Image{
     padding: 7px;
     margin-left: 17px;
