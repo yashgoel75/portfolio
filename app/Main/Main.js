@@ -4,7 +4,6 @@ import "./Main.css";
 import { useState, useEffect } from "react";
 
 function Main() {
-  const [isHovered, setIsHovered] = useState(false);
   const [isDesktop, setIsDesktop] = useState(true);
 
   // Update isDesktop based on screen width

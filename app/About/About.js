@@ -1,3 +1,5 @@
+"use client"
+
 import "./About.css";
 import Image from "next/image";
 import FadeInSection from "../framer-motion";
@@ -7,8 +9,34 @@ import solidity from "../assets/solidity.png";
 import js from "../assets/javascript.png";
 import tailwind from "../assets/tailwind.png";
 import bootstrap from "../assets/bootstrap.png";
+import { useState, useEffect} from "react";
 
 function About() {
+  const [isDesktop, setIsDesktop] = useState(true);
+  
+    useEffect(() => {
+      const handleResize = () => {
+        setIsDesktop(window.innerWidth >= 900);
+      };
+  
+      handleResize(); // Run initially
+      window.addEventListener("resize", handleResize);
+  
+      return () => window.removeEventListener("resize", handleResize);
+    }, []);
+  
+  const imageStyleDesktop = {
+    borderRadius: '50%',
+    border: '1px solid #fff',
+    height: 70,
+    width: 70
+  }
+  const imageStyleMobile = {
+    borderRadius: '50%',
+    border: '1px solid #fff',
+    height: 50,
+    width: 50
+  }
   return (
     <>
       <FadeInSection>
@@ -65,22 +93,22 @@ function About() {
       <FadeInSection>
         <div className="skillset-container">
           <div className="skillset">
-            <Image src={react} width={70} height={70} alt="React" />
+            <Image src={react} alt="React" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
           </div>
           <div className="skillset">
-            <Image src={next} width={70} height={70} alt="NextJS" />
+            <Image src={next} alt="NextJS" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
           </div>
           <div className="skillset">
-            <Image src={solidity} width={70} height={70} alt="Solidity" />
+            <Image src={solidity} alt="Solidity" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
           </div>
           <div className="skillset">
-            <Image src={js} width={70} height={70} alt="JavaScript" />
+            <Image src={js} alt="JavaScript" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
           </div>
           <div className="skillset">
-            <Image src={tailwind} width={70} height={70} alt="Tailwind" />
+            <Image src={tailwind} alt="Tailwind" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
           </div>
           <div className="skillset">
-            <Image src={bootstrap} width={70} height={70} alt="Bootstrap" />
+            <Image src={bootstrap} alt="Bootstrap" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
           </div>
         </div>
       </FadeInSection>
