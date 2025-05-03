@@ -2,7 +2,7 @@
     height: 100%;
 }
 .Hero .container {
-    margin-top: 165px;
+    margin: 100px 17px 50px 17px;
 }
 
 @media (min-width: 768px) {

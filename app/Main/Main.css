@@ -75,7 +75,7 @@
 }
 
 /* Media query for larger screens */
-@media (min-width: 768px) {
+@media (min-width: 900px) {
     .main-container {
         flex-direction: row; /* Restore horizontal layout for desktop */
         margin-top: 50px; /* Restore original margin */
@@ -96,7 +96,7 @@
 
     .header-container {
         width: 80%;
-        height: 465px; /* Restore original height */
+        height: auto; /* Restore original height */
         margin: 25px auto;
         border-radius: 20px;
         padding: 0; /* Remove mobile padding */
@@ -125,7 +125,6 @@
     
       .header-container .Header-content {
         margin: 25px 20px;
-        height: 440px; /* Restore original height */
       }
      
       .header-container p {
