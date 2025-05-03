@@ -41,7 +41,7 @@ function Main() {
                 &nbsp;&nbsp;&nbsp;&#125;<br />
                 &nbsp;&nbsp;&nbsp;.name &#123;<br />
                 &nbsp;&nbsp;&nbsp;&nbsp; transition: 0.3s ease;
-                font-family: &apos;Courier New&apos;, Courier, monospace;<br />
+                <br />
                 &nbsp;&nbsp;&nbsp;&#125;<br />
                 &nbsp;&nbsp;&nbsp;.name:hover &#123;<br />
                 &nbsp;&nbsp;&nbsp;&nbsp; background-color: white;
