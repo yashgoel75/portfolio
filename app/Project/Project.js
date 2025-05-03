@@ -30,15 +30,15 @@ function Project() {
       <div className="projects">
         <div className="project">
           <div className="image-code">
-            <div className="project-image">
-              <Image
-                src={ipucgpacalc}
-                alt="IPU CGPA Calculator"
-                
-                fill
-    style={{ objectFit: "contain"}}
-              />
-            </div>
+          <div className="project-image">
+  <Image
+    src={ipucgpacalc}
+    alt="IPU CGPA Calculator"
+    width={544} // Set a default width (adjust based on your image)
+    height={300} // Set a default height (adjust based on your image)
+    style={{ objectFit: "contain", width: "100%", height: "auto" }}
+  />
+</div>
             <div className="view-code">
               <ul>
                 <li>

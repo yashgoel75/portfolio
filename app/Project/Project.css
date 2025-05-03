@@ -22,12 +22,12 @@
 .project-image {
   position: relative;
   width: 90vw;
-  height: 500px; 
-  border-radius: 8px; 
+  height: auto; /* Remove fixed height */
+  aspect-ratio: 16 / 9; /* Maintain aspect ratio (adjust as needed) */
+  border-radius: 8px;
   overflow: hidden;
   flex-shrink: 0;
   align-items: center;
-
 }
 
 .view-code ul {
@@ -86,9 +86,10 @@
   }
 
   .project-image {
-      width: 544.7667px;
-      height: 300px;
-      border-radius: 10px;
+    width: 544.7667px;
+    height: auto; /* Flexible height */
+    aspect-ratio: 16 / 9; /* Maintain aspect ratio */
+    border-radius: 10px;
   }
 
   .view-code ul {
