@@ -34,8 +34,8 @@ function Project() {
               <Image
                 src={ipucgpacalc}
                 alt="IPU CGPA Calculator"
-                  width={600}
-                  height={300}
+                
+                fill
     style={{ objectFit: "contain"}}
               />
             </div>

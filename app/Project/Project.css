@@ -21,9 +21,13 @@
 
 .project-image {
   position: relative;
+  width: 90vw;
+  height: 500px; 
+  border-radius: 8px; 
+  overflow: hidden;
   flex-shrink: 0;
   align-items: center;
-  width: 50%;
+
 }
 
 .view-code ul {
@@ -82,6 +86,8 @@
   }
 
   .project-image {
+      width: 544.7667px;
+      height: 300px;
       border-radius: 10px;
   }
 
