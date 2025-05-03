@@ -60,7 +60,10 @@
 .skillset {
   margin: 10px;
   display: flex;
+  flex-direction: column;
   transition: 0.3s ease;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .skillset:hover {

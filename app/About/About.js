@@ -94,21 +94,27 @@ function About() {
         <div className="skillset-container">
           <div className="skillset">
             <Image src={react} alt="React" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
+            <br></br>React
           </div>
           <div className="skillset">
             <Image src={next} alt="NextJS" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
+            <br></br>Next.js
           </div>
           <div className="skillset">
             <Image src={solidity} alt="Solidity" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
+            <br></br>Solidity
           </div>
           <div className="skillset">
             <Image src={js} alt="JavaScript" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
+            <br></br>JavaScript
           </div>
           <div className="skillset">
             <Image src={tailwind} alt="Tailwind" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
+            <br></br>Tailwind
           </div>
           <div className="skillset">
             <Image src={bootstrap} alt="Bootstrap" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
+            <br></br>Bootstrap
           </div>
         </div>
       </FadeInSection>
