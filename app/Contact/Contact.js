@@ -1,6 +1,7 @@
 "use client";
 
 import "./Contact.css";
+import FadeInSection from "../framer-motion";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -26,7 +27,10 @@ function Contact() {
 
   return (
     <>
-      <div className="main-heading">CONNECT WITH ME</div>
+      <FadeInSection>
+        <div className="main-heading">CONNECT WITH ME</div>
+      </FadeInSection>
+      <FadeInSection>
       <div className="contact">
         <div className="contact-form">
           <form ref={form} onSubmit={sendEmail}>
@@ -89,7 +93,8 @@ function Contact() {
             </a>
           </div>
         </div>
-      </div>
+        </div>
+        </FadeInSection>
     </>
   );
 }

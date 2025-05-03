@@ -1,11 +1,15 @@
 import "./Project.css";
+import FadeInSection from "../framer-motion";
 import Image from "next/image";
 import ipucgpacalc from "../assets/ipucgpacalculator.png";
 
 function Project() {
   return (
     <>
-      <div className="main-heading">MY PROJECTS</div>
+      <FadeInSection>
+        <div className="main-heading">MY PROJECTS</div>
+      </FadeInSection>
+      <FadeInSection>
       <div className="projects">
         <div className="project">
           <div className="image-code">
@@ -68,7 +72,8 @@ function Project() {
             </div>
           </div>
         </div>
-      </div>
+        </div>
+        </FadeInSection>
     </>
   );
 }

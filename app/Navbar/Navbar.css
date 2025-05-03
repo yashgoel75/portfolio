@@ -2,42 +2,38 @@
   width: 100%;
   position: fixed;
   background-color: #171717;
-  height: 60px; 
+  height: 60px;
   z-index: 999;
 }
 
 .Navbar {
-  margin-top: 10px; 
+  margin-top: 10px;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 15px; 
-}
-
-.Navbar ul {
-  margin: 0; 
+  padding: 0 15px;
 }
 
 .Navbar .nav {
-  display: none; 
+  display: none;
   flex-direction: column;
   position: absolute;
   top: 60px;
   left: 0;
   width: 100%;
   background-color: #171717;
-  border-radius: 0 0 15px 15px; 
+  border-radius: 0 0 15px 15px;
   padding: 10px 0;
-  z-index: 998; 
+  z-index: 998;
 }
 
 .Navbar .nav.active {
-  display: flex; 
+  display: flex;
 }
 
 .Navbar .nav li {
-  margin: 10px 0; 
+  margin: 10px 0;
   padding: 10px;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
@@ -47,19 +43,19 @@
 
 .Navbar .resume {
   display: flex;
-  width: 120px; 
+  width: 120px;
   justify-content: center;
-  border-radius: 15px; 
+  border-radius: 15px;
   background-color: white;
-  padding: 5px; 
+  padding: 5px;
 }
 
 .Navbar .resume li {
-  margin: 0; 
+  margin: 0;
   padding: 5px;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
-  font-size: 16px; 
+  font-size: 16px;
   color: hsl(0, 0%, 0%);
 }
 
@@ -70,8 +66,8 @@
 .Navbar li:hover {
   color: black;
   cursor: pointer;
-  transition: 0.2s ease;
   border-bottom: 2px solid black;
+  transition: 0.2s ease;
 }
 
 .hamburger {
@@ -81,7 +77,7 @@
   width: 30px;
   height: 20px;
   cursor: pointer;
-  z-index: 999; 
+  z-index: 999;
 }
 
 .hamburger span {
@@ -106,60 +102,69 @@
 
 @media (min-width: 768px) {
   .Nav-container {
-      height: 95px;
+    display: flex;
+    flex-direction: row;
+    height: 95px;
+    justify-content: center;
   }
 
   .Navbar {
-      margin-top: 40px;
-      height: 45px;
-      flex-direction: row;
-      justify-content: center;
-      padding: 0; 
+    margin-top: 40px;
+    height: 45px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
   }
 
   .hamburger {
-      display: none;
+    display: none;
   }
 
   .Navbar .nav {
-      display: flex;
-      flex-direction: row;
-      position: static;
-      width: 750px;
-      height: 40px;
-      background-color: white;
-      border-radius: 25px;
-      justify-content: center;
-      padding: 0;
+    display: flex;
+    flex-direction: row;
+    position: static;
+    width: 750px;
+    height: 40px;
+    background-color: white;
+    border-radius: 25px;
+    justify-content: center;
+    padding: 0;
+    justify-content: space-evenly;
   }
 
   .Navbar .nav li {
-      margin-left: 25px;
-      margin: 5px;
-      padding: 4px;
-      font-size: 20px; 
-      color: hsl(0, 0%, 0%);
+    margin-left: 25px;
+    margin: 5px;
+    padding: 4px;
+    font-size: 20px;
+    color: hsl(0, 0%, 0%);
+    transition: 0.2s ease;
   }
 
   .Navbar .resume {
-      width: 150px;
-      margin-left: 10px;
-      border-radius: 25px;
-      padding: 0;
-      height: 40px;
-      align-items: center;
+    margin: 0 15px;
+    position: static;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border-radius: 25px;
+    justify-content: center;
+    padding: 0;
+    justify-content: space-evenly;
   }
 
   .Navbar .resume li {
-      margin-left: 25px;
-      margin-right: 25px;
-      margin: 5px;
-      padding: 4px;
-      font-size: 20px; 
+    margin-left: 25px;
+    margin: 5px;
+    padding: 4px;
+    font-size: 20px;
+    color: hsl(0, 0%, 0%);
+    transition: 0.2s ease;
   }
 
   .Navbar li:hover {
-      color: black;
-      border-bottom: 2px solid black;
+    color: black;
+    border-bottom: 2px solid black;
   }
 }

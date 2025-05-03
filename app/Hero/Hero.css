@@ -7,9 +7,9 @@
 
 @media (min-width: 768px) {
     .Hero {
-        height: 68vh;
+        height: 80vh;
     }
     .Hero .container {
-        margin-top: 210px;
+        margin: 170px;
     }
 }
