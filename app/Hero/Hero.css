@@ -1,5 +1,5 @@
 .Hero {
-    height: 68vh;
+    height: 100%;
 }
 .Hero .container {
     margin-top: 165px;
@@ -7,9 +7,9 @@
 
 @media (min-width: 768px) {
     .Hero {
-        height: 80vh;
+        height: 100%;
     }
     .Hero .container {
-        margin: 170px;
+        margin: 170px 170px 50px 170px;
     }
 }
