@@ -1,9 +1,26 @@
+"use client"
+
 import "./Project.css";
 import FadeInSection from "../framer-motion";
 import Image from "next/image";
 import ipucgpacalc from "../assets/ipucgpacalculator.png";
+import { useState, useEffect } from "react";
 
 function Project() {
+  const [isDesktop, setIsDesktop] = useState(true);
+    
+      useEffect(() => {
+        const handleResize = () => {
+          setIsDesktop(window.innerWidth >= 900);
+        };
+    
+        handleResize(); // Run initially
+        window.addEventListener("resize", handleResize);
+    
+        return () => window.removeEventListener("resize", handleResize);
+      }, []);
+    
+    
   return (
     <>
       <FadeInSection>
@@ -18,7 +35,7 @@ function Project() {
                 src={ipucgpacalc}
                 alt="IPU CGPA Calculator"
                 fill
-                style={{ objectFit: "cover" }}
+    style={{ objectFit: "contain"}}
               />
             </div>
             <div className="view-code">
