@@ -9,6 +9,10 @@ import solidity from "../assets/solidity.png";
 import js from "../assets/javascript.png";
 import tailwind from "../assets/tailwind.png";
 import bootstrap from "../assets/bootstrap.png";
+import mongodb from "../assets/mongodb.png";
+import viem from "../assets/viem.png";
+import metamask from "../assets/metamask.png";
+
 import { useState, useEffect} from "react";
 
 function About() {
@@ -92,17 +96,29 @@ function About() {
 
       <FadeInSection>
         <div className="skillset-container">
+        <div className="skillset">
+            <Image src={next} alt="NextJS" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
+            <br></br>Next.js
+          </div>
           <div className="skillset">
             <Image src={react} alt="React" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
             <br></br>React
           </div>
           <div className="skillset">
-            <Image src={next} alt="NextJS" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
-            <br></br>Next.js
-          </div>
-          <div className="skillset">
             <Image src={solidity} alt="Solidity" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
             <br></br>Solidity
+          </div>
+          <div className="skillset">
+            <Image src={metamask} alt="MetaMask" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
+            <br></br>MetaMask
+          </div>
+          <div className="skillset">
+            <Image src={viem} alt="viem" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
+            <br></br>Viem
+          </div>
+          <div className="skillset">
+            <Image src={mongodb} alt="MongoDB" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
+            <br></br>MongoDB
           </div>
           <div className="skillset">
             <Image src={js} alt="JavaScript" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
