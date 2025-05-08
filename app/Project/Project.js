@@ -102,6 +102,41 @@ function Project() {
       <FadeInSection>
         <div className="projects">
           <div className="project">
+          <div className="image-code">
+              <div className="project-image">
+                <Image
+                  src={walbo}
+                  alt="Walbo"
+                  width={544} // Set a default width (adjust based on your image)
+                  height={300} // Set a default height (adjust based on your image)
+                  style={{
+                    objectFit: "contain",
+                    width: "100%",
+                    height: "auto",
+                  }}
+                />
+              </div>
+              <div className="view-code">
+                <ul>
+                  <li>
+                    <a
+                      href="https://github.com/yashgoel75/walbo"
+                      target="_blank"
+                    >
+                      View Code
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://walbo.yashgoel.me"
+                      target="_blank"
+                    >
+                      View Live
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
             <div className="project-content">
               <div className="project-name">
                 Walbo - Connect with the Decentralized
@@ -139,41 +174,6 @@ function Project() {
                 with clunky interfaces. Whether you&lsquo;re sending crypto to a
                 friend or managing frequent recipients, Walbo makes the process
                 smooth, secure, and simple.
-              </div>
-            </div>
-            <div className="image-code">
-              <div className="project-image">
-                <Image
-                  src={walbo}
-                  alt="Walbo"
-                  width={544} // Set a default width (adjust based on your image)
-                  height={300} // Set a default height (adjust based on your image)
-                  style={{
-                    objectFit: "contain",
-                    width: "100%",
-                    height: "auto",
-                  }}
-                />
-              </div>
-              <div className="view-code">
-                <ul>
-                  <li>
-                    <a
-                      href="https://github.com/yashgoel75/walbo"
-                      target="_blank"
-                    >
-                      View Code
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://walbo.yashgoel.me"
-                      target="_blank"
-                    >
-                      View Live
-                    </a>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
