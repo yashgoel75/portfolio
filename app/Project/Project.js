@@ -134,9 +134,9 @@ function Project() {
                 <br></br>
                 🧠 <strong>Purpose:</strong> Walbo is built to make
                 decentralized payments feel familiar, fast, and user-friendly —
-                just like UPI. It's designed for people who want the power of
+                just like UPI. It&lsquo;s designed for people who want the power of
                 Web3 without the hassle of copying wallet addresses or dealing
-                with clunky interfaces. Whether you're sending crypto to a
+                with clunky interfaces. Whether you&lsquo;re sending crypto to a
                 friend or managing frequent recipients, Walbo makes the process
                 smooth, secure, and simple.
               </div>
