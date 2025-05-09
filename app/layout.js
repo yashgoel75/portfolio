@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Yash Goel",
   icons: {
-    icon: '/favicon.ico', // Make sure this path is correct
+    icon: '/favicon.ico',
   },
   description: "",
 };
