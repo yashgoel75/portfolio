@@ -51,12 +51,11 @@
 
 .skillset-container {
   width: 90%;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  gap: 1rem;
 }
-
 .skillset {
   margin: 10px;
   display: flex;
