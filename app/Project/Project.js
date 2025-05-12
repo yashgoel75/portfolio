@@ -102,7 +102,7 @@ function Project() {
       <FadeInSection>
         <div className="projects">
           <div className="project">
-          <div className="image-code">
+            <div className="image-code">
               <div className="project-image">
                 <Image
                   src={walbo}
@@ -127,10 +127,7 @@ function Project() {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="https://walbo.yashgoel.me"
-                      target="_blank"
-                    >
+                    <a href="https://walbo.yashgoel.me" target="_blank">
                       View Live
                     </a>
                   </li>
@@ -155,25 +152,30 @@ function Project() {
                 <br></br>
                 🔍 <strong>Key Features: </strong>
                 Walbo allows users to create their own custom Walbo ID, making
-                it easier to send and receive crypto without handling long
-                wallet addresses. It supports three methods of payment — via
-                Walbo ID, saved contacts, or public key — giving users
-                flexibility and convenience. The smart contact management system
-                lets users add, edit, or delete contacts effortlessly. With
-                built-in Walbo ID verification, users can ensure the recipient
-                exists before initiating any transaction. Walbo also includes a
-                wallet balance checker and automatically logs users out when
-                MetaMask is disconnected, adding an extra layer of security.
+                it easier to send and receive crypto without dealing with long
+                wallet addresses. It supports three flexible payment methods —
+                using a Walbo ID, saved contacts, or a public key — giving users
+                both convenience and choice. The smart contact management system
+                makes it simple to add, edit, or delete contacts.<br></br>With
+                built-in Walbo ID verification, users can confirm the recipient
+                exists before sending any transaction. You can also check your
+                wallet balance at any time, and for added security, Walbo
+                automatically logs you out when MetaMask is disconnected.
+                <br></br>You can view your complete transaction history,
+                including incoming payments if the recipient is also a Walbo
+                user. Searching through past transactions is quick and easy with
+                searchable logs. For a more comfortable user experience, Walbo
+                also supports dark mode.
               </div>
               <div className="purpose">
                 <br></br>
                 🧠 <strong>Purpose:</strong> Walbo is built to make
                 decentralized payments feel familiar, fast, and user-friendly —
-                just like UPI. It&lsquo;s designed for people who want the power of
-                Web3 without the hassle of copying wallet addresses or dealing
-                with clunky interfaces. Whether you&lsquo;re sending crypto to a
-                friend or managing frequent recipients, Walbo makes the process
-                smooth, secure, and simple.
+                just like UPI. It&lsquo;s designed for people who want the power
+                of Web3 without the hassle of copying wallet addresses or
+                dealing with clunky interfaces. Whether you&lsquo;re sending
+                crypto to a friend or managing frequent recipients, Walbo makes
+                the process smooth, secure, and simple.
               </div>
             </div>
           </div>
