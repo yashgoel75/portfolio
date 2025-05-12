@@ -12,6 +12,8 @@ import bootstrap from "../assets/bootstrap.png";
 import mongodb from "../assets/mongodb.png";
 import viem from "../assets/viem.png";
 import metamask from "../assets/metamask.png";
+import github from "../assets/github.png";
+import vercel from "../assets/vercel.png";
 
 import { useState, useEffect} from "react";
 
@@ -135,6 +137,14 @@ function About() {
           <div className="skillset">
             <Image src={bootstrap} alt="Bootstrap" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
             <br></br>Bootstrap
+          </div>
+          <div className="skillset">
+            <Image src={github} alt="GitHub" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
+            <br></br>GitHub
+          </div>
+          <div className="skillset">
+            <Image src={vercel} alt="Vercel" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
+            <br></br>Vercel
           </div>
         </div>
       </FadeInSection>
