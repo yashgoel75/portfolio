@@ -13,6 +13,7 @@ import mongodb from "../assets/mongodb.png";
 import viem from "../assets/viem.png";
 import metamask from "../assets/metamask.png";
 import github from "../assets/github.png";
+import git from "../assets/git.png";
 import vercel from "../assets/vercel.png";
 
 import { useState, useEffect} from "react";
@@ -141,6 +142,10 @@ function About() {
           <div className="skillset">
             <Image src={github} alt="GitHub" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
             <br></br>GitHub
+          </div>
+          <div className="skillset">
+            <Image src={git} alt="Git" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
+            <br></br>Git
           </div>
           <div className="skillset">
             <Image src={vercel} alt="Vercel" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
