@@ -112,11 +112,7 @@ function About() {
             <br></br>Solidity
           </div>
           <div className="skillset">
-            <a
-                href="/CN Lab Manual.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              ><Image src={metamask} alt="MetaMask" style={isDesktop ? imageStyleDesktop : imageStyleMobile} /></a>
+            <Image src={metamask} alt="MetaMask" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
             <br></br>MetaMask
           </div>
           <div className="skillset">
