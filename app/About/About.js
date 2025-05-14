@@ -136,12 +136,12 @@ function About() {
             <br></br>Bootstrap
           </div>
           <div className="skillset">
-            <Image src={github} alt="GitHub" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
-            <br></br>GitHub
-          </div>
-          <div className="skillset">
             <Image src={git} alt="Git" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
             <br></br>Git
+          </div>
+          <div className="skillset">
+            <Image src={github} alt="GitHub" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
+            <br></br>GitHub
           </div>
           <div className="skillset">
             <Image src={vercel} alt="Vercel" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
