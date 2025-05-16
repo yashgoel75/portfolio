@@ -8,7 +8,6 @@ function Hero() {
     <div className="Hero">
       
       <div className="container">
-        <ParticlesBackground />
         <Header />
         <Main />
       </div>
