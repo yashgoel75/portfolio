@@ -9,6 +9,7 @@
   width: 90%;
   margin: auto;
   padding: 10px;
+  z-index: 2;
 }
 
 .project {
@@ -16,6 +17,7 @@
   flex-direction: column;
   margin: 15px 0;
   width: 100%;
+  z-index: 2;
 }
 
 .project-image {

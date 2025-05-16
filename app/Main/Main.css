@@ -14,9 +14,12 @@
     transition: 0.5s ease;
 }
 .header-container {
+  position: relative;
     width: 90%; /* Increased width for mobile */
     height: auto; /* Allow height to adjust based on content */
     border: 1px solid white;
+    background-color: #171717; /* Dark background for contrast */
+    z-index: 2;
     margin: 15px auto; /* Reduced margin for compact layout */
     border-radius: 12px; /* Slightly smaller radius for mobile */
     padding: 10px; /* Added padding for touch targets */

@@ -1,15 +1,45 @@
 .Hero {
-    height: 100%;
+  height: 100%;
 }
 .Hero .container {
-    margin: 100px 17px 50px 17px;
+  margin: 100px 17px 50px 17px;
 }
 
 @media (min-width: 768px) {
-    .Hero {
-        height: 100%;
-    }
-    .Hero .container {
-        margin: 170px 170px 50px 170px;
-    }
+  .Hero {
+    height: 100%;
+  }
+  .Hero .container {
+    margin: 170px 170px 50px 170px;
+  }
+}
+.Hero {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  z-index: 2; /* Ensure content is above particles */
+  /* display: flex;
+  margin: auto; */
+  height: 100%;
+}
+.particles-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  pointer-events: none; /* optional: allow clicks to pass through */
+}
+
+#tsparticles canvas {
+  z-index: -1;
+  position: absolute !important;
+  height: 100% !important;
+  width: 100% !important;
 }
