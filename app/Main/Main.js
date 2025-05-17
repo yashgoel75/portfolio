@@ -34,11 +34,9 @@ function Main() {
       <br />
       &nbsp;&nbsp;&nbsp;&nbsp;
       <span style={{ color: "#9cdcfe" }}>font-size</span>:&nbsp;
-      <span style={{ color: "#b5cea8" }}>50px</span>;<br />
-      &nbsp;&nbsp;&nbsp;&nbsp;
+      <span style={{ color: "#b5cea8" }}>50px</span>;&nbsp;
       <span style={{ color: "#9cdcfe" }}>text-align</span>:&nbsp;
-      <span style={{ color: "#ce9178" }}>center</span>;<br />
-      &nbsp;&nbsp;&nbsp;&nbsp;
+      <span style={{ color: "#ce9178" }}>center</span>;&nbsp;
       <span style={{ color: "#9cdcfe" }}>font-family</span>:&nbsp;
       <span style={{ color: "#ce9178" }}>&#39;Courier New&#39;</span>, <span style={{ color: "#ce9178" }}>Courier</span>,
       <span style={{ color: "#ce9178" }}>&nbsp;monospace</span>;
@@ -104,10 +102,8 @@ function Main() {
       &nbsp;&nbsp;&nbsp;.content &#123;
       <br />
       &nbsp;&nbsp;&nbsp;&nbsp;font-size: 50px;
-      <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;text-align: center;
-      <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;font-family: &#39;Courier New&#39;, Courier, monospace;
+      text-align: center;
+      font-family: &#39;Courier New&#39;, Courier, monospace;
       <br />
       &nbsp;&nbsp;&nbsp;&#125;
       <br />
