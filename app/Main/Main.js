@@ -37,11 +37,11 @@ function Main() {
       <span style={{ color: "#b5cea8" }}>50px</span>;<br />
       &nbsp;&nbsp;&nbsp;&nbsp;
       <span style={{ color: "#9cdcfe" }}>text-align</span>:&nbsp;
-      <span style={{ color: "#b5cea8" }}>center</span>;<br />
+      <span style={{ color: "#ce9178" }}>center</span>;<br />
       &nbsp;&nbsp;&nbsp;&nbsp;
       <span style={{ color: "#9cdcfe" }}>font-family</span>:&nbsp;
-      <span style={{ color: "#ce9178" }}>&#39;Courier New&#39;</span>, Courier,
-      monospace;
+      <span style={{ color: "#ce9178" }}>&#39;Courier New&#39;</span>, <span style={{ color: "#ce9178" }}>Courier</span>,
+      <span style={{ color: "#ce9178" }}>&nbsp;monospace</span>;
       <br />
       &nbsp;&nbsp;&nbsp;&#125;
       <br />
