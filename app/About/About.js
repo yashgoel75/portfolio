@@ -1,8 +1,11 @@
-"use client"
+"use client";
 
 import "./About.css";
 import Image from "next/image";
 import FadeInSection from "../framer-motion";
+import { useState, useEffect } from "react";
+
+// Skill Icons (Default & Hover)
 import react from "../assets/react.png";
 import next from "../assets/next.png";
 import solidity from "../assets/solidity.png";
@@ -13,37 +16,62 @@ import mongodb from "../assets/mongodb.png";
 import viem from "../assets/viem.png";
 import metamask from "../assets/metamask.png";
 import github from "../assets/github.png";
-import git from "../assets/git.png";
 import vercel from "../assets/vercel.png";
-
-import { useState, useEffect} from "react";
+import git from "../assets/git.png";
+import reactcolor from "../assets/reactcolor.png";
+import nextcolor from "../assets/nextcolor.png";
+import soliditycolor from "../assets/soliditycolor.png";
+import jscolor from "../assets/jscolor.png";
+import tailwindcolor from "../assets/tailwindcolor.png";
+import bootstrapcolor from "../assets/bootstrapcolor.png";
+import mongodbcolor from "../assets/mongodbcolor.png";
+import metamaskcolor from "../assets/metamaskcolor.png";
+import githubcolor from "../assets/githubcolor.png";
+import gitcolor from "../assets/gitcolor.png";
 
 function About() {
   const [isDesktop, setIsDesktop] = useState(true);
-  
-    useEffect(() => {
-      const handleResize = () => {
-        setIsDesktop(window.innerWidth >= 900);
-      };
-  
-      handleResize(); // Run initially
-      window.addEventListener("resize", handleResize);
-  
-      return () => window.removeEventListener("resize", handleResize);
-    }, []);
-  
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsDesktop(window.innerWidth >= 900);
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   const imageStyleDesktop = {
-    borderRadius: '50%',
-    border: '1px solid #fff',
+    borderRadius: "50%",
+    border: "1px solid #fff",
     height: 70,
-    width: 70
-  }
+    width: 70,
+  };
+
   const imageStyleMobile = {
-    borderRadius: '50%',
-    border: '1px solid #fff',
+    borderRadius: "50%",
+    border: "1px solid #fff",
     height: 50,
-    width: 50
-  }
+    width: 50,
+  };
+
+  const skills = [
+    { name: "Next.js", defaultSrc: next, hoverSrc: nextcolor },
+    { name: "React", defaultSrc: react, hoverSrc: reactcolor },
+    { name: "Solidity", defaultSrc: solidity, hoverSrc: soliditycolor },
+    { name: "MetaMask", defaultSrc: metamask, hoverSrc: metamaskcolor },
+    { name: "Viem", defaultSrc: viem, hoverSrc: viem }, // no color image provided
+    { name: "MongoDB", defaultSrc: mongodb, hoverSrc: mongodbcolor },
+    { name: "JavaScript", defaultSrc: js, hoverSrc: jscolor },
+    { name: "Tailwind", defaultSrc: tailwind, hoverSrc: tailwindcolor },
+    { name: "Bootstrap", defaultSrc: bootstrap, hoverSrc: bootstrapcolor },
+    { name: "Git", defaultSrc: git, hoverSrc: gitcolor },
+    { name: "GitHub", defaultSrc: github, hoverSrc: githubcolor },
+    { name: "Vercel", defaultSrc: vercel, hoverSrc: vercel }, // no color image provided
+  ];
+
   return (
     <>
       <FadeInSection>
@@ -59,9 +87,7 @@ function About() {
                 - Second-year B.Tech student majoring in
                 <strong> Artificial Intelligence and Machine Learning</strong>
               </li>
-              <li>
-                - Based in <strong>Delhi, India</strong>
-              </li>
+              <li>- Based in <strong>Delhi, India</strong></li>
               <li>
                 - Actively learning <strong>Java</strong> and building strong
                 foundations in <strong>Data Structures and Algorithms</strong>
@@ -71,9 +97,9 @@ function About() {
                 and continuous self-improvement
               </li>
               <li>
-                - Actively exploring the <strong>blockchain</strong> space, with a
-                strong interest in smart contract development and decentralized
-                systems
+                - Actively exploring the <strong>blockchain</strong> space, with
+                a strong interest in smart contract development and
+                decentralized systems
               </li>
               <li>
                 - <strong>Head of Operations</strong> at Kavyarang, the literary
@@ -99,54 +125,23 @@ function About() {
 
       <FadeInSection>
         <div className="skillset-container">
-        <div className="skillset">
-            <Image src={next} alt="NextJS" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
-            <br></br>Next.js
-          </div>
-          <div className="skillset">
-            <Image src={react} alt="React" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
-            <br></br>React
-          </div>
-          <div className="skillset">
-            <Image src={solidity} alt="Solidity" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
-            <br></br>Solidity
-          </div>
-          <div className="skillset">
-            <Image src={metamask} alt="MetaMask" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
-            <br></br>MetaMask
-          </div>
-          <div className="skillset">
-            <Image src={viem} alt="viem" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
-            <br></br>Viem
-          </div>
-          <div className="skillset">
-            <Image src={mongodb} alt="MongoDB" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
-            <br></br>MongoDB
-          </div>
-          <div className="skillset">
-            <Image src={js} alt="JavaScript" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
-            <br></br>JavaScript
-          </div>
-          <div className="skillset">
-            <Image src={tailwind} alt="Tailwind" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
-            <br></br>Tailwind
-          </div>
-          <div className="skillset">
-            <Image src={bootstrap} alt="Bootstrap" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
-            <br></br>Bootstrap
-          </div>
-          <div className="skillset">
-            <Image src={git} alt="Git" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
-            <br></br>Git
-          </div>
-          <div className="skillset">
-            <Image src={github} alt="GitHub" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
-            <br></br>GitHub
-          </div>
-          <div className="skillset">
-            <Image src={vercel} alt="Vercel" style={isDesktop ? imageStyleDesktop : imageStyleMobile} />
-            <br></br>Vercel
-          </div>
+          {skills.map((skill, index) => (
+            <div
+              key={index}
+              className="skillset"
+              onMouseEnter={() => setHoveredIndex(index)}
+              onMouseLeave={() => setHoveredIndex(null)}
+              style={{ textAlign: "center", cursor: "pointer" }}
+            >
+              <Image
+                src={hoveredIndex === index ? skill.hoverSrc : skill.defaultSrc}
+                alt={skill.name}
+                style={isDesktop ? imageStyleDesktop : imageStyleMobile}
+              />
+              <br />
+              {skill.name}
+            </div>
+          ))}
         </div>
       </FadeInSection>
     </>
