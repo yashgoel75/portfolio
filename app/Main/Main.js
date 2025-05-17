@@ -40,7 +40,7 @@ function Main() {
       <span style={{ color: "#b5cea8" }}>center</span>;<br />
       &nbsp;&nbsp;&nbsp;&nbsp;
       <span style={{ color: "#9cdcfe" }}>font-family</span>:&nbsp;
-      <span style={{ color: "#ce9178" }}>'Courier New'</span>, Courier,
+      <span style={{ color: "#ce9178" }}>&#39;Courier New&#39;</span>, Courier,
       monospace;
       <br />
       &nbsp;&nbsp;&nbsp;&#125;
@@ -107,7 +107,7 @@ function Main() {
       <br />
       &nbsp;&nbsp;&nbsp;&nbsp;text-align: center;
       <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;font-family: 'Courier New', Courier, monospace;
+      &nbsp;&nbsp;&nbsp;&nbsp;font-family: &#39;Courier New&#39;, Courier, monospace;
       <br />
       &nbsp;&nbsp;&nbsp;&#125;
       <br />
