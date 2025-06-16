@@ -21,7 +21,7 @@
     background-color: #171717; /* Dark background for contrast */
     opacity: 0.8; /* Slightly transparent for modern look */
     z-index: 2;
-    margin: 15px auto; /* Reduced margin for compact layout */
+    margin: 50% auto 60px auto; /* Reduced margin for compact layout */
     border-radius: 12px; /* Slightly smaller radius for mobile */
     padding: 10px; /* Added padding for touch targets */
     box-sizing: border-box; /* Ensure padding doesn't affect width */
