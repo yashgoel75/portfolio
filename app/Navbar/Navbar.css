@@ -70,6 +70,14 @@
   transition: 0.2s ease;
 }
 
+.Navbar li .resume-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#download-image {
+  padding-left: 2px;
+}
 .hamburger {
   display: flex;
   flex-direction: column;
