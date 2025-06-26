@@ -33,6 +33,8 @@ import rainbowKit from "../assets/rainbowKit.png";
 import rainbowKitColor from "../assets/rainbowKitColor.png";
 import ethersjs from "../assets/ethersjs.png";
 import ethersjscolor from "../assets/ethersjscolor.png";
+import remix from "../assets/remix.png";
+import remixColor from "../assets/remixColor.png";
 
 function About() {
   const [isDesktop, setIsDesktop] = useState(true);
@@ -66,6 +68,7 @@ function About() {
     { name: "Next.js", defaultSrc: next, hoverSrc: nextcolor },
     { name: "React", defaultSrc: react, hoverSrc: reactcolor },
     { name: "Solidity", defaultSrc: solidity, hoverSrc: soliditycolor },
+    { name: "Remix IDE", defaultSrc: remix, hoverSrc: remixColor },
     { name: "MetaMask", defaultSrc: metamask, hoverSrc: metamaskcolor },
     { name: "Viem", defaultSrc: viem, hoverSrc: viem },
     { name: "Wagmi", defaultSrc: wagmi, hoverSrc: wagmi },
