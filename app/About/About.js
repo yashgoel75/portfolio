@@ -28,6 +28,11 @@ import mongodbcolor from "../assets/mongodbcolor.png";
 import metamaskcolor from "../assets/metamaskcolor.png";
 import githubcolor from "../assets/githubcolor.png";
 import gitcolor from "../assets/gitcolor.png";
+import wagmi from "../assets/wagmi.png";
+import rainbowKit from "../assets/rainbowKit.png";
+import rainbowKitColor from "../assets/rainbowKitColor.png";
+import ethersjs from "../assets/ethersjs.png";
+import ethersjscolor from "../assets/ethersjscolor.png";
 
 function About() {
   const [isDesktop, setIsDesktop] = useState(true);
@@ -62,14 +67,17 @@ function About() {
     { name: "React", defaultSrc: react, hoverSrc: reactcolor },
     { name: "Solidity", defaultSrc: solidity, hoverSrc: soliditycolor },
     { name: "MetaMask", defaultSrc: metamask, hoverSrc: metamaskcolor },
-    { name: "Viem", defaultSrc: viem, hoverSrc: viem }, // no color image provided
+    { name: "Viem", defaultSrc: viem, hoverSrc: viem },
+    { name: "Wagmi", defaultSrc: wagmi, hoverSrc: wagmi },
+    { name: "RainbowKit", defaultSrc: rainbowKit, hoverSrc: rainbowKitColor },
+    { name: "ethers.js", defaultSrc: ethersjs, hoverSrc: ethersjscolor },
     { name: "MongoDB", defaultSrc: mongodb, hoverSrc: mongodbcolor },
     { name: "JavaScript", defaultSrc: js, hoverSrc: jscolor },
     { name: "Tailwind", defaultSrc: tailwind, hoverSrc: tailwindcolor },
     { name: "Bootstrap", defaultSrc: bootstrap, hoverSrc: bootstrapcolor },
     { name: "Git", defaultSrc: git, hoverSrc: gitcolor },
     { name: "GitHub", defaultSrc: github, hoverSrc: githubcolor },
-    { name: "Vercel", defaultSrc: vercel, hoverSrc: vercel }, // no color image provided
+    { name: "Vercel", defaultSrc: vercel, hoverSrc: vercel },
   ];
 
   return (
