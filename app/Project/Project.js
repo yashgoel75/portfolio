@@ -225,7 +225,7 @@ function Project() {
               </div>
               <div className="project-tech">
                 🛠️ <strong>Tech Stack:</strong> Next.js • Solidity • Wagmi •
-                RaimbowKit • Viem • Ethers.js • MongoDB • MetaMask • Tailwind
+                RainbowKit • Viem • Ethers.js • MongoDB • MetaMask • Tailwind
                 CSS • Bootstrap
               </div>
               <div className="project-desc">
