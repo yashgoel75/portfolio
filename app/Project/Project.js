@@ -36,8 +36,8 @@ function Project() {
                 <Image
                   src={ipucgpacalc}
                   alt="IPU CGPA Calculator"
-                  width={544} // Set a default width (adjust based on your image)
-                  height={300} // Set a default height (adjust based on your image)
+                  width={544}
+                  height={300}
                   style={{
                     objectFit: "contain",
                     width: "100%",
@@ -108,8 +108,8 @@ function Project() {
                 <Image
                   src={walbo}
                   alt="Walbo"
-                  width={544} // Set a default width (adjust based on your image)
-                  height={300} // Set a default height (adjust based on your image)
+                  width={544}
+                  height={300}
                   style={{
                     objectFit: "contain",
                     width: "100%",
@@ -192,8 +192,8 @@ function Project() {
                 <Image
                   src={aurika}
                   alt="Aurika"
-                  width={544} // Set a default width (adjust based on your image)
-                  height={300} // Set a default height (adjust based on your image)
+                  width={544}
+                  height={300}
                   style={{
                     objectFit: "contain",
                     width: "100%",
@@ -230,40 +230,41 @@ function Project() {
               </div>
               <div className="project-desc">
                 <br></br>
-                Aurika is a decentralized application that enables users to
-                invest in digital gold using SepoliaETH and sell it at real-time
-                market prices. Built using Next.js, React, Solidity, MongoDB,
-                and a suite of Web3 tools like Viem, Wagmi, and RainbowKit, the
-                platform offers a seamless and secure experience for interacting
-                with tokenized assets. Two deployed smart contracts manage price
-                data and asset tracking, while off-chain user data like email
-                and authentication details are securely handled through MongoDB
-                and Resend.
+                Aurika is a full-stack decentralized application that allows
+                users to buy, sell, and gift digital gold using SepoliaETH, all
+                at live market prices. The platform is built using Next.js,
+                React, Solidity, MongoDB, and modern Web3 tools like Viem,
+                Wagmi, and RainbowKit. It features two deployed smart contracts
+                — one for real-time price feeds (USD/ETH → XAU) and another for
+                secure on-chain tracking of gold and ETH holdings. User data
+                such as email and authentication details are handled securely
+                off-chain using MongoDB and Resend.
               </div>
               <div className="project-features">
                 <br></br>
                 🔍 <strong>Key Features: </strong>
-                Aurika allows users to buy and sell digital gold with real-time
-                price conversions between USD, ETH, and XAU. It includes a
-                portfolio dashboard that tracks user holdings and live
-                profit/loss, a swap mechanism for ETH ↔ Gold, and a robust
-                authentication system using email OTP and PIN. The app also
-                features full transaction history with Etherscan links available
-                both in-app and via email notifications. Security is prioritized
-                with off-chain data storage, and the entire user journey is
-                supported by responsive design and thoughtful UI/UX built using
-                Tailwind CSS.
+                Aurika provides real-time ETH ↔ Gold price conversion, with an
+                intuitive portfolio dashboard to monitor current holdings and
+                profit/loss. The platform also supports gifting digital gold to
+                other users, with visual indicators in transaction history for
+                sent (red) and received (green) gifts. Users can sort
+                transactions, view Etherscan links both in-app and via email,
+                and authenticate using PIN + OTP verification. A fully
+                integrated wallet/session management system (via RainbowKit)
+                lets users disconnect wallets or logout to return to the secure
+                PIN login. The interface supports dark mode, ensuring a
+                consistent and accessible experience across environments.
               </div>
               <div className="purpose">
                 <br></br>
-                🧠 <strong>Purpose:</strong> The purpose of Aurika is to bridge
-                the gap between traditional investments and the decentralized
-                financial ecosystem by bringing a familiar asset—gold—into the
-                Web3 space. It demonstrates how blockchain technology can offer
-                transparency, security, and accessibility in managing real-world
-                value digitally. This project showcases my ability to integrate
-                smart contracts with full-stack development and design systems
-                that are not only functional but user-focused.
+                🧠 <strong>Purpose:</strong> Aurika is built to merge the
+                timeless trust of gold with the transparency and
+                decentralization of blockchain. It reimagines how we can store,
+                send, and monitor real-world value digitally — in a
+                user-friendly and secure way. This project reflects my ability
+                to design and implement scalable Web3 solutions, write and
+                refactor smart contracts, and focus deeply on user experience
+                and product polish.
               </div>
             </div>
           </div>
