@@ -70,7 +70,7 @@ function Project() {
             <div className="project-content">
               <div className="project-name">IPU CGPA Calculator</div>
               <div className="project-tech">
-                🛠️ <strong>Tech Stack:</strong> HTML • CSS • JavaScript
+                🛠️ <strong>Tech Stack:</strong> HTML • CSS • JavaScript • Bootstrap
               </div>
               <div className="project-desc">
                 <br></br>A user-friendly web application designed specifically
@@ -140,7 +140,7 @@ function Project() {
                 Walbo - Connect with the Decentralized
               </div>
               <div className="project-tech">
-                🛠️ <strong>Tech Stack:</strong> Next.js • MongoDB • Viem •
+                🛠️ <strong>Tech Stack:</strong> Next.js • JavaScript • MongoDB • Viem •
                 MetaMask • Tailwind CSS • Bootstrap
               </div>
               <div className="project-desc">
@@ -224,9 +224,9 @@ function Project() {
                 Aurika - Digital Gold on the Blockchain
               </div>
               <div className="project-tech">
-                🛠️ <strong>Tech Stack:</strong> Next.js • Solidity • Wagmi •
+                🛠️ <strong>Tech Stack:</strong> Next.js • JavaScript • Solidity • Wagmi •
                 RainbowKit • Viem • Ethers.js • MongoDB • MetaMask • Tailwind
-                CSS • Bootstrap
+                CSS
               </div>
               <div className="project-desc">
                 <br></br>
