@@ -5,7 +5,6 @@ import Image from "next/image";
 import FadeInSection from "../framer-motion";
 import { useState, useEffect } from "react";
 
-// Skill Icons (Default & Hover)
 import react from "../assets/react.png";
 import next from "../assets/next.png";
 import solidity from "../assets/solidity.png";
@@ -98,7 +97,9 @@ function About() {
                 - Second-year B.Tech student majoring in
                 <strong> Artificial Intelligence and Machine Learning</strong>
               </li>
-              <li>- Based in <strong>Delhi, India</strong></li>
+              <li>
+                - Based in <strong>Delhi, India</strong>
+              </li>
               <li>
                 - Actively learning <strong>Java</strong> and building strong
                 foundations in <strong>Data Structures and Algorithms</strong>
@@ -118,8 +119,8 @@ function About() {
                 exploring creative expression
               </li>
               <li>
-                - Focused on personal growth, learning from past experiences, and
-                striving for professionalism in all that I do
+                - Focused on personal growth, learning from past experiences,
+                and striving for professionalism in all that I do
               </li>
               <li>
                 - Curious, dedicated, and working each day to become a

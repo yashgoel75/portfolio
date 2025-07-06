@@ -16,7 +16,7 @@ function Project() {
       setIsDesktop(window.innerWidth >= 900);
     };
 
-    handleResize(); // Run initially
+    handleResize();
     window.addEventListener("resize", handleResize);
 
     return () => window.removeEventListener("resize", handleResize);
@@ -70,7 +70,8 @@ function Project() {
             <div className="project-content">
               <div className="project-name">IPU CGPA Calculator</div>
               <div className="project-tech">
-                🛠️ <strong>Tech Stack:</strong> HTML • CSS • JavaScript • Bootstrap
+                🛠️ <strong>Tech Stack:</strong> HTML • CSS • JavaScript •
+                Bootstrap
               </div>
               <div className="project-desc">
                 <br></br>A user-friendly web application designed specifically
@@ -140,8 +141,8 @@ function Project() {
                 Walbo - Connect with the Decentralized
               </div>
               <div className="project-tech">
-                🛠️ <strong>Tech Stack:</strong> Next.js • JavaScript • MongoDB • Viem •
-                MetaMask • Tailwind CSS • Bootstrap
+                🛠️ <strong>Tech Stack:</strong> Next.js • JavaScript • MongoDB •
+                Viem • MetaMask • Tailwind CSS • Bootstrap
               </div>
               <div className="project-desc">
                 <br></br>
@@ -224,9 +225,9 @@ function Project() {
                 Aurika - Digital Gold on the Blockchain
               </div>
               <div className="project-tech">
-                🛠️ <strong>Tech Stack:</strong> Next.js • JavaScript • Solidity • Wagmi •
-                RainbowKit • Viem • Ethers.js • MongoDB • MetaMask • Tailwind
-                CSS
+                🛠️ <strong>Tech Stack:</strong> Next.js • JavaScript • Solidity
+                • Wagmi • RainbowKit • Viem • Ethers.js • MongoDB • MetaMask •
+                Tailwind CSS
               </div>
               <div className="project-desc">
                 <br></br>

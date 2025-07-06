@@ -51,9 +51,7 @@ function Navbar() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div className="resume-text">
-                  RESUME
-                </div>
+                <div className="resume-text">RESUME</div>
               </a>
             </li>
           </ul>

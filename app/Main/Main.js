@@ -38,7 +38,8 @@ function Main() {
       <span style={{ color: "#9cdcfe" }}>text-align</span>:&nbsp;
       <span style={{ color: "#ce9178" }}>center</span>;&nbsp;
       <span style={{ color: "#9cdcfe" }}>font-family</span>:&nbsp;
-      <span style={{ color: "#ce9178" }}>&#39;Courier New&#39;</span>, <span style={{ color: "#ce9178" }}>Courier</span>,
+      <span style={{ color: "#ce9178" }}>&#39;Courier New&#39;</span>,{" "}
+      <span style={{ color: "#ce9178" }}>Courier</span>,
       <span style={{ color: "#ce9178" }}>&nbsp;monospace</span>;
       <br />
       &nbsp;&nbsp;&nbsp;&#125;
@@ -56,12 +57,10 @@ function Main() {
       &nbsp;&nbsp;&nbsp;&nbsp;
       <span style={{ color: "#9cdcfe" }}>background-color</span>:&nbsp;
       <span style={{ color: "#ce9178" }}>white</span>;&nbsp;
-      <span style={{ color: "#9cdcfe" }}>
-        color
-      </span>: <span style={{ color: "#ce9178" }}>black</span>;&nbsp;
-      <span style={{ color: "#9cdcfe" }}>
-        cursor
-      </span>: <span style={{ color: "#ce9178" }}>pointer</span>;<br />
+      <span style={{ color: "#9cdcfe" }}>color</span>:{" "}
+      <span style={{ color: "#ce9178" }}>black</span>;&nbsp;
+      <span style={{ color: "#9cdcfe" }}>cursor</span>:{" "}
+      <span style={{ color: "#ce9178" }}>pointer</span>;<br />
       &nbsp;&nbsp;&nbsp;&#125;
       <br />
       &nbsp;&nbsp;<span style={{ color: "#82aaff" }}>&lt;/style&gt;</span>
@@ -101,9 +100,8 @@ function Main() {
       <br />
       &nbsp;&nbsp;&nbsp;.content &#123;
       <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;font-size: 50px;
-      text-align: center;
-      font-family: &#39;Courier New&#39;, Courier, monospace;
+      &nbsp;&nbsp;&nbsp;&nbsp;font-size: 50px; text-align: center; font-family:
+      &#39;Courier New&#39;, Courier, monospace;
       <br />
       &nbsp;&nbsp;&nbsp;&#125;
       <br />
@@ -115,9 +113,8 @@ function Main() {
       <br />
       &nbsp;&nbsp;&nbsp;.name:hover &#123;
       <br />
-      &nbsp;&nbsp;&nbsp;&nbsp;background-color: white;
-      color: black;
-      cursor: pointer;
+      &nbsp;&nbsp;&nbsp;&nbsp;background-color: white; color: black; cursor:
+      pointer;
       <br />
       &nbsp;&nbsp;&nbsp;&#125;
       <br />
@@ -142,18 +139,31 @@ function Main() {
 
   const renderMobileCode = () => (
     <code>
-      &lt;html&gt;<br />
-      &nbsp;&lt;head&gt;<br />
-      &nbsp;&nbsp;&lt;title&gt; Yash Goel &lt;/title&gt;<br />
-      &nbsp;&nbsp;&lt;style&gt;<br />
-      &nbsp;&nbsp;&nbsp;.content &#123; font-size: 32px; text-align: center; font-family: &apos;Courier New&apos;, Courier, monospace; &#125;<br />
-      &nbsp;&nbsp;&lt;/style&gt;<br />
-      &nbsp;&lt;/head&gt;<br />
-      &nbsp;&lt;body&gt;<br />
-      &nbsp;&nbsp;&lt;div class=&quot;content&quot;&gt;<br />
-      &nbsp;&nbsp;&nbsp;Hello, I am Yash Goel!<br />
-      &nbsp;&nbsp;&lt;/div&gt;<br />
-      &nbsp;&lt;/body&gt;<br />
+      &lt;html&gt;
+      <br />
+      &nbsp;&lt;head&gt;
+      <br />
+      &nbsp;&nbsp;&lt;title&gt; Yash Goel &lt;/title&gt;
+      <br />
+      &nbsp;&nbsp;&lt;style&gt;
+      <br />
+      &nbsp;&nbsp;&nbsp;.content &#123; font-size: 32px; text-align: center;
+      font-family: &apos;Courier New&apos;, Courier, monospace; &#125;
+      <br />
+      &nbsp;&nbsp;&lt;/style&gt;
+      <br />
+      &nbsp;&lt;/head&gt;
+      <br />
+      &nbsp;&lt;body&gt;
+      <br />
+      &nbsp;&nbsp;&lt;div class=&quot;content&quot;&gt;
+      <br />
+      &nbsp;&nbsp;&nbsp;Hello, I am Yash Goel!
+      <br />
+      &nbsp;&nbsp;&lt;/div&gt;
+      <br />
+      &nbsp;&lt;/body&gt;
+      <br />
       &lt;/html&gt;
     </code>
   );

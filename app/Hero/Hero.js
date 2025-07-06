@@ -6,7 +6,6 @@ import ParticlesBackground from "../components/ParticlesBackground"; // Ensure e
 function Hero() {
   return (
     <div className="Hero">
-      
       <div className="container">
         <ParticlesBackground />
         <Header />
