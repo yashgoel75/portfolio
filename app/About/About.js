@@ -34,6 +34,15 @@ import ethersjs from "../assets/ethersjs.png";
 import ethersjscolor from "../assets/ethersjscolor.png";
 import remix from "../assets/remix.png";
 import remixColor from "../assets/remixColor.png";
+import ethereum from "../assets/ethereum.png";
+import ethereumcolor from "../assets/ethereumcolor.png";
+import foundry from "../assets/foundry.png";
+import pinata from "../assets/pinata.png";
+import pinatacolor from "../assets/pinatacolor.png";
+import polygon from "../assets/polygon.png";
+import polygoncolor from "../assets/polygoncolor.png";
+import typescript from "../assets/typescript.png";
+import typescriptcolor from "../assets/typescriptcolor.png";
 
 function About() {
   const [isDesktop, setIsDesktop] = useState(true);
@@ -64,19 +73,24 @@ function About() {
   };
 
   const skills = [
-    { name: "Next.js", defaultSrc: next, hoverSrc: nextcolor },
-    { name: "React", defaultSrc: react, hoverSrc: reactcolor },
+    { name: "JavaScript", defaultSrc: js, hoverSrc: jscolor },
+    { name: "TypeScript", defaultSrc: typescript, hoverSrc: typescriptcolor },
     { name: "Solidity", defaultSrc: solidity, hoverSrc: soliditycolor },
+    { name: "React", defaultSrc: react, hoverSrc: reactcolor },
+    { name: "Next.js", defaultSrc: next, hoverSrc: nextcolor },
+    { name: "Tailwind", defaultSrc: tailwind, hoverSrc: tailwindcolor },
+    { name: "Bootstrap", defaultSrc: bootstrap, hoverSrc: bootstrapcolor },
+    { name: "MongoDB", defaultSrc: mongodb, hoverSrc: mongodbcolor },
+    { name: "Ethereum", defaultSrc: ethereum, hoverSrc: ethereumcolor },
+    { name: "Polygon", defaultSrc: polygon, hoverSrc: polygoncolor },
+    { name: "Foundry", defaultSrc: foundry, hoverSrc: foundry },
     { name: "Remix IDE", defaultSrc: remix, hoverSrc: remixColor },
-    { name: "MetaMask", defaultSrc: metamask, hoverSrc: metamaskcolor },
+    { name: "Pinata", defaultSrc: pinata, hoverSrc: pinatacolor },
     { name: "Viem", defaultSrc: viem, hoverSrc: viem },
     { name: "Wagmi", defaultSrc: wagmi, hoverSrc: wagmi },
     { name: "RainbowKit", defaultSrc: rainbowKit, hoverSrc: rainbowKitColor },
     { name: "ethers.js", defaultSrc: ethersjs, hoverSrc: ethersjscolor },
-    { name: "MongoDB", defaultSrc: mongodb, hoverSrc: mongodbcolor },
-    { name: "JavaScript", defaultSrc: js, hoverSrc: jscolor },
-    { name: "Tailwind", defaultSrc: tailwind, hoverSrc: tailwindcolor },
-    { name: "Bootstrap", defaultSrc: bootstrap, hoverSrc: bootstrapcolor },
+    { name: "MetaMask", defaultSrc: metamask, hoverSrc: metamaskcolor },
     { name: "Git", defaultSrc: git, hoverSrc: gitcolor },
     { name: "GitHub", defaultSrc: github, hoverSrc: githubcolor },
     { name: "Vercel", defaultSrc: vercel, hoverSrc: vercel },

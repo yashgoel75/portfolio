@@ -6,6 +6,7 @@ import Image from "next/image";
 import ipucgpacalc from "../assets/ipucgpacalculator.png";
 import walbo from "../assets/walbo.png";
 import aurika from "../assets/aurika.png";
+import dwelp from "../assets/dwelp.png";
 import { useState, useEffect } from "react";
 
 function Project() {
@@ -266,6 +267,92 @@ function Project() {
                 to design and implement scalable Web3 solutions, write and
                 refactor smart contracts, and focus deeply on user experience
                 and product polish.
+              </div>
+            </div>
+          </div>
+        </div>
+      </FadeInSection>
+      {/* Project 4 */}
+      <FadeInSection>
+        <div className="projects">
+          <div className="project">
+            <div className="image-code">
+              <div className="project-image">
+                <Image
+                  src={dwelp}
+                  alt="Dwelp"
+                  width={544}
+                  height={300}
+                  style={{
+                    objectFit: "contain",
+                    width: "100%",
+                    height: "auto",
+                  }}
+                />
+              </div>
+              <div className="view-code">
+                <ul>
+                  <li>
+                    <a
+                      href="https://github.com/yashgoel75/dwelp"
+                      target="_blank"
+                    >
+                      View Code
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://dwelp.yashgoel.me" target="_blank">
+                      View Live
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="project-content">
+              <div className="project-name">
+                Dwelp - Decentralized Document Verification Platform
+              </div>
+              <div className="project-tech">
+                🛠️ <strong>Tech Stack:</strong> TypeScript • Next.js • Tailwind
+                CSS • Solidity • Foundry • Remix IDE • Ethers.js • Viem • Wagmi
+                • RainbowKit • MetaMask • Polygon • Infura • IPFS • Pinata •
+                OpenSSL
+              </div>
+              <div className="project-desc">
+                <br></br>
+                Dwelp is a decentralized application that enables institutions
+                like colleges, hospitals, offices, and government bodies to
+                digitally sign and verify documents using blockchain technology.
+                From certificates to circulars, it ensures that every document
+                shared is verifiable and tamper-proof. The platform operates on
+                the Polygon Amoy testnet and leverages smart contracts,
+                cryptographic signatures, and decentralized storage to create a
+                transparent and secure verification system accessible to
+                everyone.
+              </div>
+              <div className="project-features">
+                <br></br>
+                🔍 <strong>Key Features: </strong>
+                Dwelp features a dual-portal architecture — an <strong>Admin Dashboard </strong>
+                accessible only to the contract deployer for issuing signed
+                PDFs, and a <strong>Public Verification Portal</strong> where anyone can upload a
+                document and verify its authenticity instantly. It uses <strong>IPFS and
+                Pinata</strong> for decentralized document storage, <strong>OpenSSL</strong> for
+                cryptographic signing, and a type-safe, responsive frontend
+                built with <strong>TypeScript, Wagmi, Viem, and RainbowKit.</strong> The entire
+                flow is wallet-based, removing the need for passwords or email
+                logins while maintaining high security.
+              </div>
+              <div className="purpose">
+                <br></br>
+                🧠 <strong>Purpose:</strong> Dwelp is created to address the
+                growing problem of fake digital documents in our daily lives —
+                from forged degrees to false institutional notices. Its purpose
+                is to build trust through technology by making document
+                authenticity easy to verify without reliance on third parties.
+                Dwelp bridges the gap between institutions and the people they
+                serve by offering a verifiable, decentralized, and frictionless
+                method for issuing and validating official communications.
               </div>
             </div>
           </div>
