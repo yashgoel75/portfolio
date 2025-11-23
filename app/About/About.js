@@ -4,7 +4,7 @@ import "./About.css";
 import Image from "next/image";
 import FadeInSection from "../framer-motion";
 import { useState, useEffect } from "react";
-
+import Link from "next/link";
 import react from "../assets/react.png";
 import next from "../assets/next.png";
 import solidity from "../assets/solidity.png";
@@ -73,8 +73,13 @@ function About() {
   };
 
   const skills = [
-    { name: "JavaScript", defaultSrc: js, hoverSrc: jscolor },
-    { name: "TypeScript", defaultSrc: typescript, hoverSrc: typescriptcolor },
+    {
+      name: "JavaScript",
+      defaultSrc: js,
+      hoverSrc: jscolor,
+      link: "/exp5.pdf",
+    },
+    { name: "TypeScript", defaultSrc: typescript, hoverSrc: typescriptcolor, link: "exp6.pdf" },
     { name: "Solidity", defaultSrc: solidity, hoverSrc: soliditycolor },
     { name: "React", defaultSrc: react, hoverSrc: reactcolor },
     { name: "Next.js", defaultSrc: next, hoverSrc: nextcolor },
@@ -159,11 +164,21 @@ function About() {
               onMouseLeave={() => setHoveredIndex(null)}
               style={{ textAlign: "center", cursor: "pointer" }}
             >
-              <Image
-                src={hoveredIndex === index ? skill.hoverSrc : skill.defaultSrc}
-                alt={skill.name}
-                style={isDesktop ? imageStyleDesktop : imageStyleMobile}
-              />
+              {skill.link ? (
+  <Link href={skill.link}>
+    <Image
+      src={hoveredIndex === index ? skill.hoverSrc : skill.defaultSrc}
+      alt={skill.name}
+      style={isDesktop ? imageStyleDesktop : imageStyleMobile}
+    />
+  </Link>
+) : (
+  <Image
+    src={hoveredIndex === index ? skill.hoverSrc : skill.defaultSrc}
+    alt={skill.name}
+    style={isDesktop ? imageStyleDesktop : imageStyleMobile}
+  />
+)}
               <br />
               {skill.name}
             </div>
